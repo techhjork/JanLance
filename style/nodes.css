@@ -1,0 +1,338 @@
+body
+{
+    font-feature-settings: 'kern';
+    color: whitesmoke;
+    line-height: 1.5;
+}
+
+div
+{
+    display: block;
+}
+
+.node-cn-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
+    color: whitesmoke;
+}
+
+.searchNode-section
+{
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.nsn-section
+{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.search-input
+{
+    padding:0 !important;
+    line-height: inherit !important;
+    color: inherit !important;
+}
+.search-input
+{
+    width: 100% !important;
+    min-width: 0px !important;
+    outline: transparent solid 2px !important;
+    outline-offset: 2px !important;
+    position: relative !important;
+    appearance: none !important;
+    font-size: 1rem !important;
+    padding-inline-start: 1rem !important;
+    padding-inline-end: 2.5rem !important;
+    height: 2.5rem !important;
+    border-radius: 0.375rem !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-image: initial !important;
+    border-color: transparent !important;
+    background: rgba(255, 255, 255, .04) !important;
+    transition-duration: 200ms !important;
+}
+
+.nsnBtn
+{
+    right: 0px;
+    width: 4.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.nsnBtn button
+{
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    width: auto;
+    line-height: 1.2;
+    border-radius: 0.375rem;
+    font-weight: 600;
+    height: 1.7rem;
+    min-width: 2rem;
+    font-size: 0.875rem;
+    padding-inline-start: 0.75rem;
+    padding-inline-end: 0.75rem;
+    background: rgba(255, 255, 255, 0.08);
+
+    color: inherit;
+}
+
+.nsnBtn button:hover
+{
+    color: white;
+    background: rgba(255, 255, 255, 0.15);
+}
+table
+{
+    display: table;
+    font-size: 0.9rem;
+    min-width: 100%;
+}
+table td
+{
+    padding: 5px;
+}
+.t-css
+{
+    font-variant-numeric: lining-nums tabular-nums;
+    border-collapse: collapse;
+    width: 100%;
+}
+table thead th
+{
+    color: #9b9b9b;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+thead
+{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr
+{
+    display: table-row;
+    vertical-align: inherit;
+}
+.th1-css
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    text-align: left;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    line-height: 1rem;
+    font-size: 0.75rem;
+    min-width: 379px;
+}
+.th2-css
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    text-align: left;
+    padding-inline-start: 0.3rem;
+    padding-inline-end: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    line-height: 1rem;
+    font-size: 0.75rem;
+    min-width: 118px;
+
+
+    display: none;
+}
+.th3-css
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    text-align: right;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    line-height: 1rem;
+    font-size: 0.75rem;
+    min-width: 134px;
+
+    display: none;
+}
+tbody
+{
+    display: table-row-group;
+    vertical-align: middle;
+
+}
+
+.tr-css
+{
+    cursor: pointer;
+}
+tr
+{
+    display: table-row;
+    vertical-align: inherit;
+}
+.td-css
+{
+    text-align: start;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1rem;
+
+    min-width: 337px;
+}
+
+.ntd-css
+{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 32px;
+}
+.sntd-css
+{
+    border-radius: 9999px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    flex-shrink: 0;
+    background: rgb(42, 178, 199);
+    color: #1a202c;
+    border-color: #1a202c;
+    vertical-align: top;
+    width: 30px;
+    height: 30px;
+    font-size: calc(0.8rem);
+    margin-right: 0.75rem;
+}
+.text-css
+{
+    font-size: calc(0.8rem);
+    line-height: 2rem;
+}
+.sntd2-css
+{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex: 1 1 0%;
+    height: 32px;
+}
+.inner-sntd2-css
+{
+    flex: 1 1 0%;
+    height: 32px;
+}
+.sntd2-p
+{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.sntd2-p2
+{
+    color: #718096;
+    font-size: 0.75rem;
+    word-break: break-all;
+
+    position: relative;
+    bottom: 15px;
+}
+.inner-sntd2-css2
+{
+    align-self: flex-start;
+}
+
+.img-cont
+{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 24px;
+}
+.img-cont img
+{
+    height: 24px;
+    border-radius: 9999px;
+    margin-left: 0.75rem;
+}
+
+.td2-css
+{
+    text-align: start;
+    padding-inline-start: var(1rem);
+    padding-inline-end: var(1rem);
+    padding-top: var(0.5rem);
+    padding-bottom: var(0.5rem);
+    font-size: var(0.875rem);
+    line-height: var(1rem);
+}
+.td2-css p 
+{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.td3-css
+{
+    text-align: start;
+    padding-inline-start: var(1rem);
+    padding-inline-end: var(1rem);
+    padding-top: var(0.5rem);
+    padding-bottom: var(0.5rem);
+    font-size: var(0.875rem);
+    line-height: var(1rem);
+}
+.td3-css p 
+{
+    float: right;
+    padding-right: 5%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}

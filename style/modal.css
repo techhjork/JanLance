@@ -1,0 +1,40 @@
+.modal-content
+{
+    background: #2d3748 !important;
+}
+.css-f4h6uy {
+    cursor: pointer;
+    text-decoration: none;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    color: inherit;
+}
+.css-bmbuqr {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.06);
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem;
+}
+.css-1gtfrks {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: rgb(232, 131, 29);
+}
+.css-34k09d {
+    width: 30px;
+}
+.css-1wlpb2m {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: rgb(65, 150, 252);
+}

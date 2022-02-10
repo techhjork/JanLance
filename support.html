@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/font.css">
+    <link rel="stylesheet" href="style/support.css">
+    <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<style>
+  .hero {
+    background-image: url(images/background2.png);
+    /* background-position: center; */
+    background-size: cover;
+    height: 300px;
+    padding: 0 20px;
+    text-align: center;
+    width: 100%;
+}
+</style>
+<body>
+<header class="sup-header">
+    <div class="logo">
+        <a href="">
+            <img src="images/logoWhite.png" alt="">
+        </a>
+    </div>
+    <div class="nav-wrapper">
+        <button id="menuBtn" onclick="menuBtn()" class="btn menu-button" aria-controls="user-nav" aria-expanded="false" aria-label="Toggle navigation menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16" class="icon-menu">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M1.5 3.5h13m-13 4h13m-13 4h13"></path>
+            </svg>
+          </button>
+        <nav class="user-nav" id="user-nav" aria-expanded="false">
+              <a class="submit-a-request" href="request.html">Submit a request</a>
+        </nav>
+        <a class="sign-in" rel="nofollow" data-auth-action="signin" title="Opens a dialog" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.strongblock.com%2Fhc%2Fen-us">
+            Sign in
+        </a>
+    </div>
+</header>
+
+<main role="main">
+    <h1 class="visibility-hidden">
+        StrongBlock
+    </h1>
+    <section id="main-content" class="section hero">
+        <div class="hero-inner">
+          <h2 class="visibility-hidden">Search</h2>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon" aria-hidden="true">
+            <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"></circle>
+            <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"></path>
+          </svg>
+          <form role="search" class="search search-full" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><input type="search" name="query" id="query" placeholder="Search" autocomplete="off" aria-label="Search"></form>
+        </div>
+      </section>
+
+      <div class="container">
+        <section class="section knowledge-base">
+         <!-- <h1 class="homepage_title">Frequently Asked Questions</h1> -->
+          <h2 class="visibility-hidden">Categories</h2>
+          <section class="categories blocks">
+            <ul class="blocks-list">
+                    
+                    <li class="blocks-item">
+                      <a href="claiming.html" class="blocks-item-link">
+                        <span class="blocks-item-title">
+                          Claiming
+                        </span>
+                        <span class="blocks-item-description"></span>
+                      </a>
+                    </li>
+                  
+                    <li class="blocks-item">
+                      <a href="fees.html" class="blocks-item-link">
+                        <span class="blocks-item-title">
+                          Fees
+                        </span>
+                        <span class="blocks-item-description"></span>
+                      </a>
+                    </li>
+                  
+                    <li class="blocks-item">
+                      <a href="gasfee.html" class="blocks-item-link">
+                        <span class="blocks-item-title">
+                          Gas Fee
+                        </span>
+                        <span class="blocks-item-description"></span>
+                      </a>
+                    </li>
+                  
+                    <li class="blocks-item">
+                      <a href="supmining.html" class="blocks-item-link">
+                        <span class="blocks-item-title">
+                          Mining
+                        </span>
+                        <span class="blocks-item-description"></span>
+                      </a>
+                    </li>
+                  
+                    <li class="blocks-item">
+                      <a href="supnfts.html" class="blocks-item-link">
+                        <span class="blocks-item-title">
+                          NFTs
+                        </span>
+                        <span class="blocks-item-description"></span>
+                      </a>
+                    </li>
+                  
+                    <li class="blocks-item">
+                      <a href="supnode.html" class="blocks-item-link">
+                        <span class="blocks-item-title">
+                          Nodes
+                        </span>
+                        <span class="blocks-item-description"></span>
+                      </a>
+                    </li>
+                  
+                    <li class="blocks-item">
+                      <a href="rewards.html" class="blocks-item-link">
+                        <span class="blocks-item-title">
+                          Rewards
+                        </span>
+                        <span class="blocks-item-description"></span>
+                      </a>
+                    </li>
+                  
+                    <li class="blocks-item">
+                      <a href="rpc.html" class="blocks-item-link">
+                        <span class="blocks-item-title">
+                          RPC / Endpoints
+                        </span>
+                        <span class="blocks-item-description"></span>
+                      </a>
+                    </li>
+                  
+                    <li class="blocks-item">
+                      <a href="signaling.html" class="blocks-item-link">
+                        <span class="blocks-item-title">
+                          Signaling
+                        </span>
+                        <span class="blocks-item-description"></span>
+                      </a>
+                    </li>
+                  
+                    <li class="blocks-item">
+                      <a href="supsupport.html" class="blocks-item-link">
+                        <span class="blocks-item-title">
+                          Support
+                        </span>
+                        <span class="blocks-item-description"></span>
+                      </a>
+                    </li>
+                  
+                    <li class="blocks-item">
+                      <a href="token.html" class="blocks-item-link">
+                        <span class="blocks-item-title">
+                          Token(s)
+                        </span>
+                        <span class="blocks-item-description"></span>
+                      </a>
+                    </li>
+                  
+                    <li class="blocks-item">
+                      <a href="wallet.html" class="blocks-item-link">
+                        <span class="blocks-item-title">
+                          Wallet
+                        </span>
+                        <span class="blocks-item-description"></span>
+                      </a>
+                    </li>
+                  
+                
+              
+            </ul>
+            
+          </section>
+      
+          
+        </section>
+      </div>
+
+
+</main>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="functions.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+.css-1xo1xlh {
+    width: 100%;
+    margin-inline: auto;
+    max-width: 1024px;
+    padding-inline: 1rem;
+}
+.css-1qp2xeu {
+    display: grid;
+    grid-gap: 1.25rem;
+    grid-template-columns: repeat(1, minmax(0px, 1fr));
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.css-1rr4qq7 {
+    flex: 1 1 0%;
+}
+.css-1edegsu {
+    border-radius: 25px;
+    overflow: hidden;
+}
+.css-8atqhb {
+    width: 100%;
+}
+img {
+    display: block;
+    vertical-align: middle;
+}
+.css-9a2b5p {
+    cursor: pointer;
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: white;
+}
+.css-9a2b5p:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+.css-savx64 {
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 1.33;
+    margin-bottom: 0.5rem;
+}
+.css-70qvj9 {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.css-jhykhb {
+    color: #718096;
+    font-weight: 600;
+    letter-spacing: 0.025rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-right: 0.5rem;
+}
+.css-1dkhj1b {
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding-inline-start: 0.5rem;
+    padding-inline-end: 0.5rem;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    border-radius: 9999px;
+    font-weight: 700;
+    background: rgba(254, 178, 178, 0.16);
+    color: #feb2b2;
+}
+.css-1u9gfme {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+.css-9o6iir {
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    transition: all 250ms ease 0s;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: none;
+    width: auto;
+    line-height: 1.2;
+    border-radius: 0.375rem;
+    font-weight: 600rem;
+    height: 2.5rem;
+    min-width: 2.5rem;
+    font-size: 1rem;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    background: #aee970;
+    color: #1a202c;
+    border: none;
+}
+.css-rt0b3x {
+    font-size: 0.75rem;
+    font-style: italic;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}

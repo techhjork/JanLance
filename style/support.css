@@ -1,0 +1,220 @@
+body {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(41, 37, 37, 1);
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: rgba(28, 104, 174, 1);
+    text-decoration: none;
+}
+div {
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
+.sup-header
+{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 5%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    height: 71px;
+    justify-content: space-between;
+}
+.logo img
+{
+    max-height: 37px;
+    vertical-align: middle;
+    border-style: none;
+}
+.logo a {
+    display: inline-block;
+}
+.nav-wrapper .menu-button {
+    background: none;
+    border: 0;
+    color: rgba(28, 104, 174, 1);
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0;
+    width: auto;
+}
+.nav-wrapper .menu-button .icon-menu {
+    vertical-align: middle;
+    width: 13px;
+    height: 13px;
+}
+.user-nav {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+}
+.nav-wrapper a {
+    border: 0;
+    color: rgba(28, 104, 174, 1);
+    display: none;
+    font-size: 14px;
+    padding: 0 20px 0 0;
+    width: auto;
+}
+.nav-wrapper a.sign-in {
+    display: inline-block;
+}
+main
+{
+    display: block;
+}
+.visibility-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+h1 {
+    font-size: 32px;
+}
+
+.hero-inner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 610px;
+    margin: 0 auto;
+}
+.search-icon {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 15px;
+    z-index: 1;
+    width: 18px;
+    height: 18px;
+    color: #777;
+}
+.search {
+    position: relative;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+input:not([type="checkbox"]) {
+    outline: none;
+}
+input {
+    max-width: 100%;
+    box-sizing: border-box;
+    transition: border .12s ease-in-out;
+}
+.search-full input[type="search"] {
+    border: 1px solid #fff;
+}
+.search input[type="search"] {
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #666;
+    height: 40px;
+    padding-left: 40px;
+    padding-right: 20px;
+    -webkit-appearance: none;
+    width: 100%;
+}
+input:not([type="checkbox"]) {
+    outline: none;
+}
+
+.container {
+    max-width: 3200px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+section {
+    display: block;
+}
+.blocks-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.blocks-item {
+    border: 1px solid rgba(28, 104, 174, 1);
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* color: rgba(28, 104, 174, 1); */
+    display: flex;
+    flex: 1 0 340px;
+    margin: 0 0 30px;
+    max-width: 100%;
+    text-align: center;
+}
+.blocks-item-link {
+    color: rgba(28, 104, 174, 1);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    border-radius: inherit;
+}
+.blocks-item-title {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.blocks-item-description {
+    margin: 0;
+}
+a
+{
+    text-decoration: none !important;
+}
+.blocks-item a:hover
+{
+    background: rgba(28, 104, 174, 1);
+    color: white;
+}
+.user-nav[aria-expanded="true"] {
+    background-color: #fff;
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 15%), 0 4px 10px 0 rgb(0 0 0 / 10%);
+    border: solid 1px #ddd;
+    right: 0;
+    left: 0;
+    top: 71px;
+    z-index: 1;
+}
+.user-nav[aria-expanded="true"] > a {
+    display: block;
+    margin: 20px;
+}

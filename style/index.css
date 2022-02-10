@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Maven+Pro&family=Montserrat&display=swap');
+html
+{
+  scroll-behavior: smooth;
+}
+body
+{
+  color: whitesmoke !important;
+}
+.header {
+  padding: 10px 10px;
+}
+.navbar-nav
+{
+  margin:auto;
+  width: auto;
+}
+.btnCwallet
+{
+  border-radius: 5px !important ;
+  padding: 8px 20px !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  user-select: none !important;
+  white-space: nowrap !important;
+  outline: transparent solid 2px !important;
+  outline-offset: 2px !important;
+  width: auto;
+  line-height: 1.2 !important;
+  color: #718096 !important;
+  background: rgba(255, 255, 255, .08) !important;
+}
+.btnCwallet:hover
+{
+  background: rgba(255, 255, 255, .15) !important;
+}
+.navbar
+{
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.nodes-section
+{
+  width: 100%;
+  margin-inline: auto;
+  max-width:1024px;
+  padding-inline-start: 2.3rem;
+  padding-inline-end: 2.3rem;
+  margin-bottom: 5rem;
+}
+
+.cn-container
+{
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+.btnNode
+{
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  width: auto;
+  color: #1a202c !important;
+  background: #5ba2e4 !important;
+  border: transparent !important;
+  border-radius: 7px !important;
+}
+.placeHolder
+{
+  vertical-align: baseline;
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-variant-numeric: proportional-nums;
+}
+.n-placeHolder
+{
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.nn-placeHolder
+{
+  opacity: 0.7;
+  box-shadow: none;
+  cursor: default;
+  color: transparent;
+  pointer-events: none;
+  user-select: none;
+  border-radius: 2px;
+  border-color: rgb(26, 32, 44);
+  background: padding-box rgb(74, 85, 104);
+  animation: 0.8s linear 0s infinite alternate none running running;
+  width: 125px;
+  height: 30px;
+}
+@keyframes running{
+  50%{
+    background: rgb(26, 32, 44);
+  }
+  50%
+  {
+    background: rgb(17, 27, 44);
+  }
+}
+
+.node-tab
+{
+  display: flex;
+  flex-direction: row;
+  min-height: 58px;
+}
+
+.nt-item-active{
+  flex: 1 1 0%;
+  display: flex;
+  justify-content: center;
+  color: rgb(248, 250, 252);
+  align-items: center;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  background-color: rgba(0, 21, 40, .9);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nt-item{
+  flex: 1 1 0%;
+  display: flex;
+  justify-content: center;
+  color: rgb(248, 250, 252);
+  align-items: center;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.09);
+  text-decoration: none;
+}
+.nt-item-half{
+  flex: 1 1 0%;
+  display: flex;
+  justify-content: center;
+  color: rgb(248, 250, 252);
+  align-items: center;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.04);
+  text-decoration: none;
+}
+
+.node-tab a:hover
+{
+  color: white;
+}
+.info-section
+{
+  background: rgba(0, 21, 40, .9);
+  min-height: 400px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  padding: 2%;
+}
+.infoDesc{
+  display:flex;
+  margin-bottom: 5px;
+}
+
+.info-p{
+  flex: 1 1 0%;
+  font-size: 17px;
+  margin-right: 10px;
+}
+.info-p a
+{
+  text-decoration: none;
+  color: #1c68ae;
+}
+
+.info-btn
+{
+  text-align: center;
+}
+
+.info-btn button
+{
+  padding: 8px 20px !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  width: auto;
+  color: #1a202c !important;
+  background: #5ba2e4 !important;
+  border: transparent;
+  border-radius: 7px;
+}
+.info-btn button:hover
+{
+  background: #3590e6 !important
+}
+.createNode h6{
+  font-size: 14px;
+  font-weight: 550;
+}
+.createNode-section
+{
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.css-onkibi {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  line-height: 1em;
+  flex-shrink: 0;
+  color: currentcolor;
+  vertical-align: middle;
+}

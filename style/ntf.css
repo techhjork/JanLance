@@ -1,0 +1,199 @@
+body, blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+    margin: 0;
+}
+a
+{
+    text-decoration: none !important;
+}
+img, video
+{
+    max-width: 100%;
+    height: auto;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+img
+{
+    display: block;
+    vertical-align: middle;
+    border: none;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    margin-bottom: 0 !important;
+}
+.info-container
+{
+    width: 100%;
+    margin-inline: auto;
+    max-width: 1024px;
+    padding-inline:1rem;
+}
+section
+{
+    display: block;
+}
+
+.hs-d
+{
+    max-width: 42rem;
+    margin-inline: auto;
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.hs-header
+{
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+}
+.hs-header-p2
+{
+    font-size: 2.75rem !important;
+    color: #469cff;
+}
+.hs-header2
+{
+    margin-top: 1rem;
+    font-size: 1.125rem;
+}
+.sales-container
+{
+    grid-gap: 1.25rem;
+    grid-template-columns: repeat(1, minmax(0px, 1fr));
+    margin-bottom: 2.5rem;
+    display: flex;
+}
+.card
+{
+    background: rgba(0, 0, 0, 0.36) !important;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+    border-width: 1px !important;
+    border-radius: 20px !important;
+
+}
+.sales-desc
+{
+    padding: 1.25rem;
+}
+.cont-p
+{
+    display:flex;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+}
+.cont-p-h
+{
+    color: #718096;
+    font-weight: 600;
+    letter-spacing: 0.025rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-right: 0.5rem;
+}
+.cont-p-status
+{
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding-inline-start: 0.5rem;
+    padding-inline-end: 0.5rem;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    border-radius: 9999px;
+    font-weight: 700;
+    background: rgba(254, 178, 178, 0.16);
+    color: #feb2b2;
+}
+.cont-p-header
+{
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: inherit;
+    color: whitesmoke;
+}
+.cont-p-2
+{
+    color: #718096;
+    font-size: 0.875rem;
+    white-space: nowrap;
+}
+.card-img-top
+{
+    width: 100% !important;
+}
+
+.infos-container
+{
+    font-size: 0.875rem;
+}
+.ninfos-h
+{
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+.ninfos-h h2
+{
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+.ninfos-p
+{
+    margin-bottom: 1rem !important;
+}
+.nft-res
+{
+    margin-top: 1.25rem;
+}
+.nft-res a
+{
+    cursor: pointer;
+    color: #6bb0ff!important;
+    font-weight: bold !important;
+}
+.nft-m h2
+{
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.nft-m ol
+{
+    list-style-type: decimal;
+    padding-left: 1.25rem;
+}
+.ex-info
+{
+    margin-bottom: 5rem;
+}
+.ex-info p
+{
+    margin-bottom: 1.25rem !important;
+}
+
+.ex-info ul
+{
+    list-style: decimal;
+    padding-left: 1.25rem;
+}

@@ -1,0 +1,72 @@
+.cs-cont
+{
+    cursor: not-allowed;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    vertical-align: top;
+    position: relative;
+    opacity: 0.4;
+}
+.cs-cont input
+{
+    border: 0px;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+}
+.cs-sp1
+{
+    width: 1rem;
+    transition-property: box-shadow;
+    transition-duration: 200ms;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+    border-radius: 0.125rem;
+    border-color: inherit;
+    color: white;
+    height:1rem;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    vertical-align: top;
+    user-select: none;
+    flex-shrink: 0;
+}
+.cs-sp2
+{
+    margin-inline-start: 0.5rem;
+    user-select: none;
+    font-size: 1rem;
+}
+.cs-badge
+{
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding-inline-start: 0.5rem;
+    padding-inline-end: 0.5rem;
+    text-transform: none;
+    font-size: 0.75rem;
+    border-radius: 20px;
+    font-weight: 700;
+    background: #9ee453;
+    color: #171923;
+    margin-inline-start: 0.5rem;
+    margin-inline-end: 0.5rem;
+    margin-top: 0px;
+    margin-bottom: 0.25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    margin-left: 0px;
+    margin-right: 0.5rem;
+    z-index: 999;
+}
